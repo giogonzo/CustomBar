@@ -24,6 +24,6 @@ public class MainActivity extends Activity {
 		}
 
 		ListView peopleList = (ListView) findViewById(R.id.list);
-		peopleList.setAdapter(new ListAdapter(this, R.layout.row, objects));
+		peopleList.setAdapter(new ListAdapter(this, R.layout.row1, objects));
 	}
 }

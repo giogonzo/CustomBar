@@ -26,7 +26,7 @@ public class ListAdapter extends ArrayAdapter<CustomInterface> {
 		if (convertView == null) {
 			LayoutInflater vi;
 			vi = LayoutInflater.from(getContext());
-			convertView = vi.inflate(R.layout.row, null);
+			convertView = vi.inflate(R.layout.row1, null);
 
 		}
 

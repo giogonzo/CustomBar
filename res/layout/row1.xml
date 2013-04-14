@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <com.custombar.custombar.CustomBar
+        android:id="@+id/bar"
+        android:layout_width="fill_parent"
+        android:layout_height="22dp"
+        android:layout_margin="10dp"
+        app:centerDrawable="@drawable/center1"
+        app:centerOffset="0dp"
+        app:leftDrawable="@drawable/left1"
+        app:rightDrawable="@drawable/right1"
+        app:textOffset="10dp"
+        app:textShadowDX="1dp"
+        app:textShadowDY="1dp"
+        app:textShadowRadius="2dp"
+        app:textSize="15sp" />
+
+</LinearLayout>
