@@ -3,6 +3,9 @@ CustomBar
 
 This is intended to be a "static" `ProgressBar`, customizable with three `Drawable`s (left, right, center indicator). Could be easily extended to behave like a real `ProgressBar` or like a touch input.
 
+![Example 1](pics/1.png "Example 1")
+![Example 2](pics/2.png "Example 2")
+
 Setup
 -----
 In Eclipse, import the library as an Android library project.
