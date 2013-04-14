@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomBar">
+        <attr name="leftDrawable" format="reference" />
+        <attr name="rightDrawable" format="reference" />
+        <attr name="centerDrawable" format="reference" />
+        
+        <attr name="textLeft" format="boolean" />
+        <attr name="textRight" format="boolean" />
+        <attr name="textAnchorCenter" format="boolean" />
+        <attr name="textColor" format="reference|color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textOffset" format="dimension" />
+        
+        <attr name="textShadow" format="boolean" />
+        <attr name="textShadowColor" format="reference|color" />
+        <attr name="textShadowRadius" format="dimension" />
+        <attr name="textShadowDX" format="dimension" />
+        <attr name="textShadowDY" format="dimension" />
+        
+        <attr name="verticalPadding" format="dimension" />
+        <attr name="centerOffset" format="dimension" />
+        
+        <attr name="leftCount" format="integer" />
+        <attr name="rightCount" format="integer" />
+    </declare-styleable>
+
+</resources>
