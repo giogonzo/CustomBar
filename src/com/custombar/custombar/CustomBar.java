@@ -109,6 +109,7 @@ public class CustomBar extends View {
 		weightSum = leftCount + rightCount;
 		updateLeftText();
 		updateBounds();
+		invalidate();
 	}
 
 	public void setRightCount(int count) {
@@ -116,6 +117,7 @@ public class CustomBar extends View {
 		weightSum = leftCount + rightCount;
 		updateRightText();
 		updateBounds();
+		invalidate();
 	}
 
 	private void updateLeftText() {
